@@ -1,0 +1,22 @@
+{
+  "name": "Logger",
+  "version": "0.1.0",
+  "summary": "A short description of Logger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jeet000007/Logger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jeet000007": "jeetj786@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Jeet000007/Logger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Logger/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Logger (0.1.0)
+
+DEPENDENCIES:
+  - Logger (from `../`)
+
+EXTERNAL SOURCES:
+  Logger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Logger: 6a73786f40ee6ce250318eae1056fab7f38d4ab9
+
+PODFILE CHECKSUM: c27e6e89dd69fa4d4c2c853d71922677dc11bb24
+
+COCOAPODS: 1.8.4
