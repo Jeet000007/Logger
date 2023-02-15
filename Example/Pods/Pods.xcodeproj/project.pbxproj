@@ -14,9 +14,9 @@
 		81381A79221D74D0AB0C1723E9360334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9178C18A51D4915590C4E4C745B9CAEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C392D8C194F2CDF22B1059050F225990 /* Logger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9253A75326770ED8881D9D6C85C90642 /* Logger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8184ECA299CC6E000B40365 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8184EC9299CC6E000B40365 /* Logger.swift */; };
 		F78BDF6F5E690962A7F3F54CC05AE1F9 /* Pods-Logger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB3519D27A6B275C4E03E125698460C /* Pods-Logger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA51C4B3683B14E2EC4C635562DFFE59 /* Pods-Logger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E31834A9964850BB0FEF9EF82E6C4A /* Pods-Logger_Tests-dummy.m */; };
-		FC0ECB01CFF8AD37D6D7D1C91E505579 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E174C297DC910CE6C7FD9B77522350C /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		13D5A90C625C4508D8A50DBB9F436D44 /* Logger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Logger-Info.plist"; sourceTree = "<group>"; };
 		21F344FB1873FE21A75D04D4D214322E /* Logger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logger-prefix.pch"; sourceTree = "<group>"; };
 		31A64AFC6BF142E33132645C4FAA78CE /* Pods-Logger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Logger_Example-Info.plist"; sourceTree = "<group>"; };
-		4E174C297DC910CE6C7FD9B77522350C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Logger/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		52E3DF6B3B778DFF06BDAD4A3B754372 /* Pods-Logger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Logger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		55C9D9634578A7DD8FAFC56522E25E10 /* Logger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Logger.xcconfig; sourceTree = "<group>"; };
 		5B885C88ADE1657D499F59A64F2EF619 /* Pods-Logger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Logger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5CD208A3268A8B73ACAE1F01CA023CAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5CD208A3268A8B73ACAE1F01CA023CAA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6893E7F704C9AA0CECF3D740696EDFEB /* Logger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Logger.modulemap; sourceTree = "<group>"; };
 		69221736C852A90DC9874E1FD0C74CC9 /* Pods-Logger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Logger_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9253A75326770ED8881D9D6C85C90642 /* Logger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logger-umbrella.h"; sourceTree = "<group>"; };
 		98DBAB554E03581940F3A0B568F6F7B3 /* Pods-Logger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Logger_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EB3519D27A6B275C4E03E125698460C /* Pods-Logger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Logger_Example-umbrella.h"; sourceTree = "<group>"; };
-		A2EA6241F371531E34EE32886395DBEA /* Logger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Logger.framework; path = Logger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EA6241F371531E34EE32886395DBEA /* Logger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Logger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3CC1564B445C25B630F4DCDFD0C8CC4 /* Pods-Logger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Logger_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A7FA261881F7405FC6FF26122DDFD4A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A7FA261881F7405FC6FF26122DDFD4A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A8E31834A9964850BB0FEF9EF82E6C4A /* Pods-Logger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Logger_Tests-dummy.m"; sourceTree = "<group>"; };
 		BF037BB104DFC313C4FCBE164BA9ACF4 /* Pods-Logger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Logger_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C512457A195F089498DBAD23A6E286D9 /* Pods-Logger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Logger_Tests-Info.plist"; sourceTree = "<group>"; };
-		CAAB8FF6A06673A39705AD270F106F5A /* Pods_Logger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Logger_Tests.framework; path = "Pods-Logger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8184EC9299CC6E000B40365 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		CAAB8FF6A06673A39705AD270F106F5A /* Pods_Logger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Logger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BD0E5D3979826774FE1BFD83896E92 /* Pods-Logger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Logger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D3543BFEDD89E88D2A84FC14BA8D47D8 /* Pods_Logger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Logger_Example.framework; path = "Pods-Logger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3543BFEDD89E88D2A84FC14BA8D47D8 /* Pods_Logger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Logger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1350169FCA127524DF4F7AEDA43E7D1 /* Pods-Logger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Logger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EC3CE08810DCEF651C9589A8ED5CE416 /* Logger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Logger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC3CE08810DCEF651C9589A8ED5CE416 /* Logger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Logger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EDEB1E11498582D7B74B263FB5C9F3E0 /* Pods-Logger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Logger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF2F91EF2685B92D50C60700674480BB /* Pods-Logger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Logger_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,7 +141,7 @@
 		5A49E3CE18A39AF73BFFA5C982072E1D /* Logger */ = {
 			isa = PBXGroup;
 			children = (
-				4E174C297DC910CE6C7FD9B77522350C /* ReplaceMe.swift */,
+				C8184EC9299CC6E000B40365 /* Logger.swift */,
 				C4DC2E4C9EFD21ABA969B22CBC292CAC /* Pod */,
 				2E60433DBC5643E0B28C05931D83561C /* Support Files */,
 			);
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					77B07DDC1D3B5080EEAC1789310C5F2B = {
+						LastSwiftMigration = "";
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,7 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E9ACFE16BCA1DDF8408506F666D0C76 /* Logger-dummy.m in Sources */,
-				FC0ECB01CFF8AD37D6D7D1C91E505579 /* ReplaceMe.swift in Sources */,
+				C8184ECA299CC6E000B40365 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55C9D9634578A7DD8FAFC56522E25E10 /* Logger.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -420,7 +426,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Logger/Logger-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Logger/Logger-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Logger/Logger.modulemap";
 				PRODUCT_MODULE_NAME = Logger;
@@ -428,7 +434,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -451,7 +458,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Logger_Example/Pods-Logger_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Logger_Example/Pods-Logger_Example.modulemap";
@@ -485,7 +492,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Logger_Tests/Pods-Logger_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Logger_Tests/Pods-Logger_Tests.modulemap";
@@ -519,7 +526,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Logger_Example/Pods-Logger_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Logger_Example/Pods-Logger_Example.modulemap";
@@ -552,7 +559,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Logger_Tests/Pods-Logger_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Logger_Tests/Pods-Logger_Tests.modulemap";
@@ -688,8 +695,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -699,6 +705,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55C9D9634578A7DD8FAFC56522E25E10 /* Logger.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -711,7 +718,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Logger/Logger-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Logger/Logger-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Logger/Logger.modulemap";
 				PRODUCT_MODULE_NAME = Logger;
@@ -719,7 +726,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
