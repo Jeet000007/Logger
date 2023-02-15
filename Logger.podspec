@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Logger/Classes/**/*'
+  s.source_files = 'Logger/**/*'
   
   # s.resource_bundles = {
   #   'Logger' => ['Logger/Assets/*.png']
